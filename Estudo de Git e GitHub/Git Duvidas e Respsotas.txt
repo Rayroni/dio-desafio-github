@@ -1,0 +1,11 @@
+comando Git Init faz ?
+Inicializa um repositorio git na pasta em questão
+
+ Oque o Git é ?
+Um sistema de versionamento de Código distribuído
+
+oque é um sistema distribuido?
+Um sistema que possui múltiplas cópias de si mesmo em diferentes locais
+
+Qual diferença do seu ambiente de desenvolvimento e do servidor?
+Seu ambiente de desenvolvimento é local e o servidor,remoto.

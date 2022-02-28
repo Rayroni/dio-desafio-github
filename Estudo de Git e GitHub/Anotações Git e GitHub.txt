@@ -1,0 +1,28 @@
+                Primeiro Objeto: Blob
+
+
+echo 'conteudo' | git hash-object --stdin
+echo (repete oq foi escrito)
+git hash-object --stdin (Sinalizando que esta sendo enviado texto)
+E ela deve devolver o sha1 dessa string
+
+echo -e 'conteudo' | openssl sha1
+Outro conjuto de caracteres,pois os arquivos ficam guardados dentro do Blob
+
+echo -e 'blob 9/0conteudo' | openssl sha1
+e se tem o msm sha1 da primeiro comando
+
+               Segundo Objeto: Tree
+Tree(armazenam Blobs,contem tanbem meta dados,aponta para um blobs ,que tem um sha1 e ela tambem guarda o nome do arquivo) (O blob não guarda o nome do arquivo)
+
+              Terceiro Objeto: Commit 
+Commit(E o objeto mais importante,ele vai juntar tudo e dar sentido a alteração que vc esta fazendo ,ele aponta para uma Tree,aponta para um parente (aponta para o ultimo commit realizado antes dele) aponta para um autor ,aponta para uma mensagem.
+Commit ,tbm tem um time,ou seja um carimbo de tempo q leva a data e a hora de sua criação.
+Commit tbm possue uma criptação.
+
+
+Flags :
+-a (Mostra conteudos oculto)
+
+
+
